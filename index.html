@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px 0;
+
+}
+
+button {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+</style>
+
+<body>
+
+    <div class="box">
+
+        <div style="color: rgb(255, 255, 255); font-size: 50px;" id="timer">00:00</div>
+        <div class="button">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stopTimer()">Stop</button>
+            <button onclick="resetTimer()">Yengilash</button>
+        </div>
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
